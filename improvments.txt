@@ -1,0 +1,8 @@
+* The verification services could be called in parallel (maybe with reactive Mono.zip)
+* The test coverage for some classes could be improved
+* The verification services could run actually and return non-mock data
+* lLogging and error handling could be added from a central point in the project (MDC, GlobalExceptionHandler etc.)
+* A monitoring tool can be established for the app
+* Circuit breaker and retry mechanisms could be added to prevent overall service failures
+* rate limiting could be added (ip-based)
+* the project configurations could be taken from a config file or a config service
